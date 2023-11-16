@@ -1,0 +1,28 @@
+@use 'variables'
+
+@mixin content
+    padding: 30px 40px
+    margin: 2.5rem 0 0 15rem
+
+    h1
+        margin: 30px 0
+
+    p
+        margin: 15px 0
+
+@mixin btnStyled
+    button
+        width: 6rem
+        height: 2.5rem
+        border-radius: 5px
+        font-weight: bold
+        cursor: pointer
+        transition: .3s ease-in-out
+        &:hover
+            background-color: #858585
+
+@mixin blockCode
+    padding: 20px
+    border-radius: 10px
+    background-color: variables.$code-block
+    margin: 5rem 0

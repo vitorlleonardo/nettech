@@ -1,0 +1,10 @@
+@use '../mixins'
+
+.Editor
+    @include mixins.content
+
+.previous-and-back
+    display: flex
+    justify-content: space-between
+    margin: 5rem 0
+    @include mixins.btnStyled

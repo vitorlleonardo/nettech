@@ -1,0 +1,18 @@
+@use '../mixins'
+@use '../variables'
+
+.Home
+    @include mixins.content
+
+.Home .previous
+    display: flex
+    justify-content: end
+
+.Home .previous
+    @include mixins.btnStyled
+
+.Home ul
+    margin: 30px
+
+.Home .box-code
+    @include mixins.blockCode

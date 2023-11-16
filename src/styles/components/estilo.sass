@@ -1,0 +1,18 @@
+@use '../mixins'
+@use '../variables'
+
+.Estilo
+    @include mixins.content
+
+    p, h4
+        margin: 20px 0
+
+    ul
+        margin: 30px
+
+        li
+            margin: 10px 0
+            font-weight: 500
+
+    .block-code
+        @include mixins.blockCode
