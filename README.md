@@ -1,8 +1,21 @@
-# React + Vite
+# NetTech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Bem-vindo ao Blog de Aprendizado sobre HTML, CSS e JavaScript! Este repositório contém o código fonte e os recursos para um blog interativo focado em ensinar os fundamentos do desenvolvimento web.
 
-Currently, two official plugins are available:
+# Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Este blog foi desenvolvido para ajudar iniciantes a aprender e aprimorar suas habilidades em HTML, CSS e JavaScript.
+
+# Tecnologias Utlizadas
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>SASS</li>
+    <li>JAVASCRIPT</li>
+    <li>REACT</li>
+</ul>
+
+# Site
+
+### nettech-beta.vercel.app
