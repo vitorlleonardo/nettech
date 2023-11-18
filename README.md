@@ -15,7 +15,3 @@
     <li>JAVASCRIPT</li>
     <li>REACT</li>
 </ul>
-
-# Site
-
-### nettech-beta.vercel.app
