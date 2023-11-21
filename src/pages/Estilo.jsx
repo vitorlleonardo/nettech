@@ -38,7 +38,7 @@ export default function Estilo() {
         </div>
         <div className="previous-and-back">
             <Link to='/Atributos'><button>Voltar</button></Link>
-            <Link to='/'><button>Proximo</button></Link>
+            <Link to='/Formatacao'><button>Proximo</button></Link>
         </div>
     </div>
   )

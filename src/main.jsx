@@ -12,7 +12,7 @@ import Error from './pages/ErrorPage.jsx';
 import Elementos from './pages/Elementos.jsx';
 import Atributos from './pages/Atributos.jsx';
 import Estilo from './pages/Estilo.jsx';
-
+import Formatacao from './pages/formatacao.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,14 +39,22 @@ const router = createBrowserRouter([
       {
         path: '/Estilo',
         element: <Estilo />
+      },
+      {
+        path: '/Formatacao',
+        element: <Formatacao />
       }
     ]
   }
     
 ])
 
+import { ThemeProvider } from './context/ThemeContext.jsx';
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </React.StrictMode>
 )

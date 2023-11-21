@@ -13,7 +13,7 @@ export default function MenuList() {
                 <Link to='/Elementos'><li>Elementos</li></Link>
                 <Link to='/Atributos'><li>Atributos</li></Link>
                 <Link to='/Estilo'><li>Estilos</li></Link>
-                <Link to='/'><li>Formatação</li></Link>
+                <Link to='/Formatacao'><li>Formatação</li></Link>
                 <Link to='/'><li>Imagens</li></Link>
             </ul>
             <p>CSS</p>
